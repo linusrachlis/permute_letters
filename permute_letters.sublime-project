@@ -1,0 +1,17 @@
+{
+	"build_systems":
+	[
+		{
+			"file_regex": "^(.+?)\\((\\d+)\\):",
+			"name": "Build C Play",
+			"selector": "source.c, source.cpp, source.c++",
+			"shell_cmd": "\"$project_path/build.bat\" \"$file\""
+		}
+	],
+	"folders":
+	[
+		{
+			"path": "."
+		}
+	]
+}
